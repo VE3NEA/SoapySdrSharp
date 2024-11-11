@@ -1,0 +1,34 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "../",
+          "files": ["*.csproj"]
+        }
+      ],
+      "dest": "api"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": ["**/*.{md,yml}"],
+        "exclude": ["_site/**"]
+      }
+    ],
+    "resource": [
+      {
+        "files": ["images/**"]
+      }
+    ],
+    "output": "_site",
+    "template": ["statictoc"],
+    "globalMetadata": {
+      "_appName": "Pothosware.SoapySDR Reference",
+      "_appTitle": "Pothosware.SoapySDR Reference",
+      "_enableSearch": false,
+      "pdf": false
+    }
+  }
+}

@@ -1,0 +1,945 @@
+{
+  "Assembly": {
+    "ABIVersion": "0.8-3",
+    "APIVersion": "0.8.512",
+    "LibVersion": "0.8.1-g8c6cb7c5"
+  },
+  "Runtime": {
+    "ABIVersion": "0.8-3",
+    "APIVersion": "0.8.200",
+    "LibVersion": "0.8.1-g8c6cb7c5"
+  },
+  "SWIGModule": {
+    "ABIVersion": "0.8-3",
+    "APIVersion": "0.8.200",
+    "LibVersion": "0.8.1-g8c6cb7c5"
+  },
+  "Devices": [
+    {
+      "Args": {
+        "driver": "airspy",
+        "label": "AirSpy One [1111111111111111]",
+        "serial": "1111111111111111"
+      },
+      "Error": null,
+      "SettingInfo": [
+        {
+          "Key": "biastee",
+          "Value": "false",
+          "Name": "Bias tee",
+          "Description": "Enable the 4.5v DC Bias tee to power SpyVerter / LNA / etc. via antenna connection.",
+          "Units": "",
+          "ArgType": 0,
+          "Range": {
+            "Minimum": 0.0,
+            "Maximum": 0.0,
+            "Step": 0.0
+          },
+          "Options": [],
+          "OptionNames": []
+        },
+        {
+          "Key": "bitpack",
+          "Value": "false",
+          "Name": "Bit Pack",
+          "Description": "Enable packing 4 12-bit samples into 3 16-bit words for 25% less USB trafic.",
+          "Units": "",
+          "ArgType": 0,
+          "Range": {
+            "Minimum": 0.0,
+            "Maximum": 0.0,
+            "Step": 0.0
+          },
+          "Options": [],
+          "OptionNames": []
+        }
+      ],
+      "DriverKey": "Airspy",
+      "HardwareKey": "Airspy",
+      "HardwareInfo": {
+        "serial": "744c60c821486f4f"
+      },
+      "MasterClockRate": 0.0,
+      "MasterClockRates": [],
+      "ReferenceClockRate": 0.0,
+      "ReferenceClockRates": [],
+      "ClockSource": "",
+      "ClockSources": [],
+      "TimeSource": "",
+      "TimeSources": [],
+      "UARTs": [],
+      "HasHardwareTime": false,
+      "FrontendMapping": "",
+      "Sensors": {},
+      "RegisterInterfaces": [],
+      "GPIOBankDirections": {},
+      "SensorInfo": null,
+      "Settings": {
+        "biastee": "false",
+        "bitpack": "false"
+      },
+      "RxChannels": [
+        {
+          "Direction": 1,
+          "ChannelNo": 0,
+          "Error": null,
+          "HasDCOffsetMode": false,
+          "HasDCOffset": false,
+          "HasIQBalance": false,
+          "HasIQBalanceMode": false,
+          "HasFrequencyCorrection": false,
+          "HasGainMode": true,
+          "FullDuplex": false,
+          "ChannelInfo": {},
+          "StreamFormats": [
+            "CS16",
+            "CF32"
+          ],
+          "NativeStreamFormat": "CS16",
+          "NativeStreamFullSale": 32767.0,
+          "StreamArgsInfo": [],
+          "Antennas": [
+            "RX"
+          ],
+          "Sensors": {},
+          "Antenna": "RX",
+          "device": null,
+          "DCOffsetMode": null,
+          "DCOffset": null,
+          "IQBalanceMode": null,
+          "IQBalance": null,
+          "FrequencyCorrection": null,
+          "GainMode": false,
+          "Gain": 0.0,
+          "Gains": {
+            "LNA": 0.0,
+            "MIX": 0.0,
+            "VGA": 0.0
+          },
+          "GainRange": {
+            "Minimum": 0.0,
+            "Maximum": 45.0,
+            "Step": 0.0
+          },
+          "GainRanges": {
+            "LNA": {
+              "Minimum": 0.0,
+              "Maximum": 15.0,
+              "Step": 0.0
+            },
+            "MIX": {
+              "Minimum": 0.0,
+              "Maximum": 15.0,
+              "Step": 0.0
+            },
+            "VGA": {
+              "Minimum": 0.0,
+              "Maximum": 15.0,
+              "Step": 0.0
+            }
+          },
+          "FrequencyRange": [
+            {
+              "Minimum": 24000000.0,
+              "Maximum": 1800000000.0,
+              "Step": 0.0
+            }
+          ],
+          "FrequencyRanges": {
+            "RF": [
+              {
+                "Minimum": 24000000.0,
+                "Maximum": 1800000000.0,
+                "Step": 0.0
+              }
+            ]
+          },
+          "Frequency": 0.0,
+          "Frequencies": {
+            "RF": 0.0
+          },
+          "FrequencyArgsInfo": [],
+          "SampleRate": 3000000.0,
+          "SampleRateRange": [
+            {
+              "Minimum": 6000000.0,
+              "Maximum": 6000000.0,
+              "Step": 0.0
+            },
+            {
+              "Minimum": 3000000.0,
+              "Maximum": 3000000.0,
+              "Step": 0.0
+            }
+          ],
+          "Bandwidth": 0.0,
+          "BandwidthRange": [],
+          "SettingInfo": [],
+          "Settings": {},
+          "Stream": {
+            "Error": null,
+            "Channels": [
+              0
+            ],
+            "Format": "CF32",
+            "MTU": 65536,
+            "StreamArgs": {},
+            "ExampleData": [
+              {
+                "ErrorCode": 0,
+                "Samples": [
+                  -9.459454E-05,
+                  0.0,
+                  0.00018406057,
+                  0.0,
+                  -0.00020671898,
+                  0.0
+                ],
+                "StreamResult": {
+                  "NumSamples": 6,
+                  "Flags": 32,
+                  "TimeNs": 0,
+                  "ChanMask": 0
+                }
+              },
+              {
+                "ErrorCode": 0,
+                "Samples": [
+                  -0.001102764,
+                  0.0,
+                  0.0015866174,
+                  0.0,
+                  -0.0023900191,
+                  0.0
+                ],
+                "StreamResult": {
+                  "NumSamples": 6,
+                  "Flags": 32,
+                  "TimeNs": 0,
+                  "ChanMask": 0
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "TxChannels": []
+    },
+    {
+      "Args": {
+        "driver": "rtlsdr",
+        "label": "Generic RTL2832U OEM :: 11111111",
+        "manufacturer": "Realtek",
+        "product": "RTL2838UHIDIR",
+        "serial": "11111111",
+        "tuner": "Rafael Micro R820T"
+      },
+      "Error": null,
+      "SettingInfo": [
+        {
+          "Key": "direct_samp",
+          "Value": "0",
+          "Name": "Direct Sampling",
+          "Description": "RTL-SDR Direct Sampling Mode",
+          "Units": "",
+          "ArgType": 3,
+          "Range": {
+            "Minimum": 0.0,
+            "Maximum": 0.0,
+            "Step": 0.0
+          },
+          "Options": [
+            "0",
+            "1",
+            "2"
+          ],
+          "OptionNames": [
+            "Off",
+            "I-ADC",
+            "Q-ADC"
+          ]
+        },
+        {
+          "Key": "offset_tune",
+          "Value": "false",
+          "Name": "Offset Tune",
+          "Description": "RTL-SDR Offset Tuning Mode",
+          "Units": "",
+          "ArgType": 0,
+          "Range": {
+            "Minimum": 0.0,
+            "Maximum": 0.0,
+            "Step": 0.0
+          },
+          "Options": [],
+          "OptionNames": []
+        },
+        {
+          "Key": "iq_swap",
+          "Value": "false",
+          "Name": "I/Q Swap",
+          "Description": "RTL-SDR I/Q Swap Mode",
+          "Units": "",
+          "ArgType": 0,
+          "Range": {
+            "Minimum": 0.0,
+            "Maximum": 0.0,
+            "Step": 0.0
+          },
+          "Options": [],
+          "OptionNames": []
+        },
+        {
+          "Key": "digital_agc",
+          "Value": "false",
+          "Name": "Digital AGC",
+          "Description": "RTL-SDR digital AGC Mode",
+          "Units": "",
+          "ArgType": 0,
+          "Range": {
+            "Minimum": 0.0,
+            "Maximum": 0.0,
+            "Step": 0.0
+          },
+          "Options": [],
+          "OptionNames": []
+        },
+        {
+          "Key": "testmode",
+          "Value": "false",
+          "Name": "Test Mode",
+          "Description": "RTL-SDR Test Mode",
+          "Units": "",
+          "ArgType": 0,
+          "Range": {
+            "Minimum": 0.0,
+            "Maximum": 0.0,
+            "Step": 0.0
+          },
+          "Options": [],
+          "OptionNames": []
+        },
+        {
+          "Key": "biastee",
+          "Value": "false",
+          "Name": "Bias Tee",
+          "Description": "RTL-SDR Blog V.3 Bias-Tee Mode",
+          "Units": "",
+          "ArgType": 0,
+          "Range": {
+            "Minimum": 0.0,
+            "Maximum": 0.0,
+            "Step": 0.0
+          },
+          "Options": [],
+          "OptionNames": []
+        },
+        {
+          "Key": "dithering",
+          "Value": "true",
+          "Name": "Dithering",
+          "Description": "RTL-SDR Dithering Mode",
+          "Units": "",
+          "ArgType": 0,
+          "Range": {
+            "Minimum": 0.0,
+            "Maximum": 0.0,
+            "Step": 0.0
+          },
+          "Options": [],
+          "OptionNames": []
+        }
+      ],
+      "DriverKey": "RTLSDR",
+      "HardwareKey": "R820T",
+      "HardwareInfo": {
+        "index": "0",
+        "origin": "https://github.com/pothosware/SoapyRTLSDR"
+      },
+      "MasterClockRate": 0.0,
+      "MasterClockRates": [],
+      "ReferenceClockRate": 0.0,
+      "ReferenceClockRates": [],
+      "ClockSource": "",
+      "ClockSources": [],
+      "TimeSource": "sw_ticks",
+      "TimeSources": [
+        "sw_ticks"
+      ],
+      "UARTs": [],
+      "HasHardwareTime": true,
+      "FrontendMapping": "",
+      "Sensors": {},
+      "RegisterInterfaces": [],
+      "GPIOBankDirections": {},
+      "SensorInfo": null,
+      "Settings": {
+        "direct_samp": "0",
+        "offset_tune": "false",
+        "iq_swap": "false",
+        "digital_agc": "false",
+        "testmode": "false",
+        "biastee": "false",
+        "dithering": "true"
+      },
+      "RxChannels": [
+        {
+          "Direction": 1,
+          "ChannelNo": 0,
+          "Error": null,
+          "HasDCOffsetMode": false,
+          "HasDCOffset": false,
+          "HasIQBalance": false,
+          "HasIQBalanceMode": false,
+          "HasFrequencyCorrection": true,
+          "HasGainMode": true,
+          "FullDuplex": false,
+          "ChannelInfo": {},
+          "StreamFormats": [
+            "CS8",
+            "CS16",
+            "CF32"
+          ],
+          "NativeStreamFormat": "CS8",
+          "NativeStreamFullSale": 128.0,
+          "StreamArgsInfo": [
+            {
+              "Key": "bufflen",
+              "Value": "262144",
+              "Name": "Buffer Size",
+              "Description": "Number of bytes per buffer, multiples of 512 only.",
+              "Units": "bytes",
+              "ArgType": 1,
+              "Range": {
+                "Minimum": 0.0,
+                "Maximum": 0.0,
+                "Step": 0.0
+              },
+              "Options": [],
+              "OptionNames": []
+            },
+            {
+              "Key": "buffers",
+              "Value": "15",
+              "Name": "Ring buffers",
+              "Description": "Number of buffers in the ring.",
+              "Units": "buffers",
+              "ArgType": 1,
+              "Range": {
+                "Minimum": 0.0,
+                "Maximum": 0.0,
+                "Step": 0.0
+              },
+              "Options": [],
+              "OptionNames": []
+            },
+            {
+              "Key": "asyncBuffs",
+              "Value": "0",
+              "Name": "Async buffers",
+              "Description": "Number of async usb buffers (advanced).",
+              "Units": "buffers",
+              "ArgType": 1,
+              "Range": {
+                "Minimum": 0.0,
+                "Maximum": 0.0,
+                "Step": 0.0
+              },
+              "Options": [],
+              "OptionNames": []
+            }
+          ],
+          "Antennas": [
+            "RX"
+          ],
+          "Sensors": {},
+          "Antenna": "RX",
+          "device": null,
+          "DCOffsetMode": null,
+          "DCOffset": null,
+          "IQBalanceMode": null,
+          "IQBalance": null,
+          "FrequencyCorrection": 0.0,
+          "GainMode": false,
+          "Gain": 0.0,
+          "Gains": {
+            "TUNER": 0.0
+          },
+          "GainRange": {
+            "Minimum": 0.0,
+            "Maximum": 49.6,
+            "Step": 0.0
+          },
+          "GainRanges": {
+            "TUNER": {
+              "Minimum": 0.0,
+              "Maximum": 49.6,
+              "Step": 0.0
+            }
+          },
+          "FrequencyRange": [
+            {
+              "Minimum": 23999000.0,
+              "Maximum": 1764001000.0,
+              "Step": 0.0
+            }
+          ],
+          "FrequencyRanges": {
+            "RF": [
+              {
+                "Minimum": 24000000.0,
+                "Maximum": 1764000000.0,
+                "Step": 0.0
+              }
+            ],
+            "CORR": [
+              {
+                "Minimum": -1000.0,
+                "Maximum": 1000.0,
+                "Step": 0.0
+              }
+            ]
+          },
+          "Frequency": 100000000.0,
+          "Frequencies": {
+            "RF": 100000000.0,
+            "CORR": 0.0
+          },
+          "FrequencyArgsInfo": [],
+          "SampleRate": 2048000.0,
+          "SampleRateRange": [
+            {
+              "Minimum": 225001.0,
+              "Maximum": 300000.0,
+              "Step": 0.0
+            },
+            {
+              "Minimum": 900001.0,
+              "Maximum": 3200000.0,
+              "Step": 0.0
+            }
+          ],
+          "Bandwidth": 2048000.0,
+          "BandwidthRange": [
+            {
+              "Minimum": 0.0,
+              "Maximum": 8000000.0,
+              "Step": 0.0
+            }
+          ],
+          "SettingInfo": [],
+          "Settings": {},
+          "Stream": {
+            "Error": null,
+            "Channels": [
+              0
+            ],
+            "Format": "CF32",
+            "MTU": 131072,
+            "StreamArgs": {},
+            "ExampleData": [
+              {
+                "ErrorCode": -1,
+                "Samples": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "StreamResult": {
+                  "NumSamples": 0,
+                  "Flags": 0,
+                  "TimeNs": 0,
+                  "ChanMask": 0
+                }
+              },
+              {
+                "ErrorCode": 0,
+                "Samples": [
+                  -0.010937512,
+                  -0.050000012,
+                  0.020312488,
+                  -0.050000012,
+                  0.020312488,
+                  0.043749988
+                ],
+                "StreamResult": {
+                  "NumSamples": 6,
+                  "Flags": 36,
+                  "TimeNs": 0,
+                  "ChanMask": 0
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "TxChannels": []
+    },
+    {
+      "Args": {
+        "driver": "sdrplay",
+        "label": "SDRplay Dev0 RSP1A 1111111111",
+        "serial": "1111111111"
+      },
+      "Error": null,
+      "SettingInfo": [
+        {
+          "Key": "rfgain_sel",
+          "Value": "4",
+          "Name": "RF Gain Select",
+          "Description": "RF Gain Select",
+          "Units": "",
+          "ArgType": 3,
+          "Range": {
+            "Minimum": 0.0,
+            "Maximum": 0.0,
+            "Step": 0.0
+          },
+          "Options": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "OptionNames": []
+        },
+        {
+          "Key": "iqcorr_ctrl",
+          "Value": "true",
+          "Name": "IQ Correction",
+          "Description": "IQ Correction Control",
+          "Units": "",
+          "ArgType": 0,
+          "Range": {
+            "Minimum": 0.0,
+            "Maximum": 0.0,
+            "Step": 0.0
+          },
+          "Options": [],
+          "OptionNames": []
+        },
+        {
+          "Key": "agc_setpoint",
+          "Value": "-30",
+          "Name": "AGC Setpoint",
+          "Description": "AGC Setpoint (dBfs)",
+          "Units": "",
+          "ArgType": 1,
+          "Range": {
+            "Minimum": -60.0,
+            "Maximum": 0.0,
+            "Step": 0.0
+          },
+          "Options": [],
+          "OptionNames": []
+        },
+        {
+          "Key": "biasT_ctrl",
+          "Value": "true",
+          "Name": "BiasT Enable",
+          "Description": "BiasT Control",
+          "Units": "",
+          "ArgType": 0,
+          "Range": {
+            "Minimum": 0.0,
+            "Maximum": 0.0,
+            "Step": 0.0
+          },
+          "Options": [],
+          "OptionNames": []
+        },
+        {
+          "Key": "rfnotch_ctrl",
+          "Value": "true",
+          "Name": "RfNotch Enable",
+          "Description": "RF Notch Filter Control",
+          "Units": "",
+          "ArgType": 0,
+          "Range": {
+            "Minimum": 0.0,
+            "Maximum": 0.0,
+            "Step": 0.0
+          },
+          "Options": [],
+          "OptionNames": []
+        },
+        {
+          "Key": "dabnotch_ctrl",
+          "Value": "true",
+          "Name": "DabNotch Enable",
+          "Description": "DAB Notch Filter Control",
+          "Units": "",
+          "ArgType": 0,
+          "Range": {
+            "Minimum": 0.0,
+            "Maximum": 0.0,
+            "Step": 0.0
+          },
+          "Options": [],
+          "OptionNames": []
+        }
+      ],
+      "DriverKey": "SDRplay",
+      "HardwareKey": "RSP1A",
+      "HardwareInfo": {
+        "sdrplay_api_api_version": "3.150000",
+        "sdrplay_api_hw_version": "255"
+      },
+      "MasterClockRate": 0.0,
+      "MasterClockRates": [],
+      "ReferenceClockRate": 0.0,
+      "ReferenceClockRates": [],
+      "ClockSource": "",
+      "ClockSources": [],
+      "TimeSource": "",
+      "TimeSources": [],
+      "UARTs": [],
+      "HasHardwareTime": false,
+      "FrontendMapping": "",
+      "Sensors": {},
+      "RegisterInterfaces": [],
+      "GPIOBankDirections": {},
+      "SensorInfo": null,
+      "Settings": {
+        "rfgain_sel": "0",
+        "iqcorr_ctrl": "true",
+        "agc_setpoint": "-30",
+        "biasT_ctrl": "false",
+        "rfnotch_ctrl": "false",
+        "dabnotch_ctrl": "false"
+      },
+      "RxChannels": [
+        {
+          "Direction": 1,
+          "ChannelNo": 0,
+          "Error": null,
+          "HasDCOffsetMode": true,
+          "HasDCOffset": false,
+          "HasIQBalance": false,
+          "HasIQBalanceMode": false,
+          "HasFrequencyCorrection": true,
+          "HasGainMode": true,
+          "FullDuplex": false,
+          "ChannelInfo": {},
+          "StreamFormats": [
+            "CS16",
+            "CF32"
+          ],
+          "NativeStreamFormat": "CS16",
+          "NativeStreamFullSale": 32767.0,
+          "StreamArgsInfo": [],
+          "Antennas": [
+            "RX"
+          ],
+          "Sensors": {},
+          "Antenna": "RX",
+          "device": null,
+          "DCOffsetMode": true,
+          "DCOffset": null,
+          "IQBalanceMode": null,
+          "IQBalance": null,
+          "FrequencyCorrection": 0.0,
+          "GainMode": true,
+          "Gain": 30.0,
+          "Gains": {
+            "IFGR": 50.0,
+            "RFGR": 0.0
+          },
+          "GainRange": {
+            "Minimum": 0.0,
+            "Maximum": 48.0,
+            "Step": 0.0
+          },
+          "GainRanges": {
+            "IFGR": {
+              "Minimum": 20.0,
+              "Maximum": 59.0,
+              "Step": 0.0
+            },
+            "RFGR": {
+              "Minimum": 0.0,
+              "Maximum": 9.0,
+              "Step": 0.0
+            }
+          },
+          "FrequencyRange": [
+            {
+              "Minimum": 1000.0,
+              "Maximum": 2000000000.0,
+              "Step": 0.0
+            }
+          ],
+          "FrequencyRanges": {
+            "RF": [
+              {
+                "Minimum": 1000.0,
+                "Maximum": 2000000000.0,
+                "Step": 0.0
+              }
+            ],
+            "CORR": []
+          },
+          "Frequency": 200000000.0,
+          "Frequencies": {
+            "RF": 200000000.0,
+            "CORR": 0.0
+          },
+          "FrequencyArgsInfo": [],
+          "SampleRate": 2000000.0,
+          "SampleRateRange": [
+            {
+              "Minimum": 62500.0,
+              "Maximum": 62500.0,
+              "Step": 0.0
+            },
+            {
+              "Minimum": 96000.0,
+              "Maximum": 96000.0,
+              "Step": 0.0
+            },
+            {
+              "Minimum": 125000.0,
+              "Maximum": 125000.0,
+              "Step": 0.0
+            },
+            {
+              "Minimum": 192000.0,
+              "Maximum": 192000.0,
+              "Step": 0.0
+            },
+            {
+              "Minimum": 250000.0,
+              "Maximum": 250000.0,
+              "Step": 0.0
+            },
+            {
+              "Minimum": 384000.0,
+              "Maximum": 384000.0,
+              "Step": 0.0
+            },
+            {
+              "Minimum": 500000.0,
+              "Maximum": 500000.0,
+              "Step": 0.0
+            },
+            {
+              "Minimum": 768000.0,
+              "Maximum": 768000.0,
+              "Step": 0.0
+            },
+            {
+              "Minimum": 1000000.0,
+              "Maximum": 1000000.0,
+              "Step": 0.0
+            },
+            {
+              "Minimum": 2000000.0,
+              "Maximum": 10660000.0,
+              "Step": 0.0
+            }
+          ],
+          "Bandwidth": 200000.0,
+          "BandwidthRange": [
+            {
+              "Minimum": 200000.0,
+              "Maximum": 200000.0,
+              "Step": 0.0
+            },
+            {
+              "Minimum": 300000.0,
+              "Maximum": 300000.0,
+              "Step": 0.0
+            },
+            {
+              "Minimum": 600000.0,
+              "Maximum": 600000.0,
+              "Step": 0.0
+            },
+            {
+              "Minimum": 1536000.0,
+              "Maximum": 1536000.0,
+              "Step": 0.0
+            },
+            {
+              "Minimum": 5000000.0,
+              "Maximum": 5000000.0,
+              "Step": 0.0
+            },
+            {
+              "Minimum": 6000000.0,
+              "Maximum": 6000000.0,
+              "Step": 0.0
+            },
+            {
+              "Minimum": 7000000.0,
+              "Maximum": 7000000.0,
+              "Step": 0.0
+            },
+            {
+              "Minimum": 8000000.0,
+              "Maximum": 8000000.0,
+              "Step": 0.0
+            }
+          ],
+          "SettingInfo": [],
+          "Settings": {},
+          "Stream": {
+            "Error": null,
+            "Channels": [
+              0
+            ],
+            "Format": "CF32",
+            "MTU": 65536,
+            "StreamArgs": {},
+            "ExampleData": [
+              {
+                "ErrorCode": 0,
+                "Samples": [
+                  0.016448975,
+                  0.14938354,
+                  0.014862061,
+                  0.1496582,
+                  0.013031006,
+                  0.14968872
+                ],
+                "StreamResult": {
+                  "NumSamples": 6,
+                  "Flags": 32,
+                  "TimeNs": 0,
+                  "ChanMask": 0
+                }
+              },
+              {
+                "ErrorCode": 0,
+                "Samples": [
+                  0.009429932,
+                  0.14990234,
+                  0.009796143,
+                  0.15039062,
+                  0.0095825195,
+                  0.15032959
+                ],
+                "StreamResult": {
+                  "NumSamples": 6,
+                  "Flags": 32,
+                  "TimeNs": 0,
+                  "ChanMask": 0
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "TxChannels": []
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ListSoapySdrDevices": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}
