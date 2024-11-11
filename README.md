@@ -3,7 +3,7 @@
 This repository contains:
 
 - the [SoapySDR](https://github.com/pothosware/SoapySDR) C# bindings built for .net 8.0;
-- DocFX [documentation](Pothosware.SoapySDR/doc/_site/api/Pothosware.SoapySDR.html) for the C# bindings;
+- DocFX [documentation](Pothosware.SoapySDR/doc/_site/api) for the C# bindings;
 - precompiled binaries (ABIVersion 0.8-3) of
   - [SoapySDR](https://github.com/pothosware/SoapySDR) (SoapySDR.dll and SoapySDRCSharpSWIG.dll)
   - [SoapyAirspy](https://github.com/pothosware/SoapyAirspy) (airspySupport.dll)
