@@ -242,7 +242,7 @@ namespace SoapySdrSharp
     {
       public ErrorCode ErrorCode;
       public float[] Samples = new float[6];
-      public StreamResult StreamResult;
+      public StreamResult StreamResult = new();
     }
 
     private Dictionary<string, string>? GetStaticFields(Type classType)
